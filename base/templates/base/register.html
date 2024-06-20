@@ -1,5 +1,6 @@
 {% extends 'base/main.html' %}
 {% block content %}
+
 <div class="header-bar">
     <h1>Register</h1>
 </div>
@@ -7,16 +8,16 @@
 <div class="card-body">
     <form method="POST">
         {% csrf_token %}
-        <label {{form.username.label}}></label>
+        <label>{{form.username.label}}</label>
         {{form.username}}
 
-        <label {{form.password1.label}}></label>
+        <label>{{form.password1.label}}</label>
         {{form.password1}}
 
-        <label {{form.password2.label}}></label>
+        <label>{{form.password2.label}}</label>
         {{form.password2}}
 
-        <input style="margin-top:10px" class="button" type="submit" value="Register">
+        <input style="margin-top:10px ;" class="button" type="submit" value="Register">
     </form>
     <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
 </div>
