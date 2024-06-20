@@ -13,16 +13,5 @@ source code created by the YouTube video's instructor for this to-do list applic
 3. The application server can then be accessed locally at http://127.0.0.1:8000/.
 
 ## Application Bugs/Errors
-1. The logout functionality showed in the tutorial is apparently not supported anymore in 2024, so it's implementation is not functional. I will determine a solution in the near future.
-2. main.html says there is an error here:
-```
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-                {  
-                    font-family: 'Raleway', sans-serif;
-            }
-```
+1. The logout functionality showed in the tutorial is apparently not supported anymore in 2024, so it's implementation is not functional. I will determine a solution for this in the near future.
+2. The font color on the registration page is black, not light gray. I will also determine a solution for this in the near future.
